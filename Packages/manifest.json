@@ -7,7 +7,7 @@
     "com.unity.textmeshpro": "2.0.1",
     "com.unity.timeline": "1.2.14",
     "com.unity.ugui": "1.0.0",
-    "mu.cluster.cluster-creator-kit": "file:E:/Unity/ClusterCreatorKitSample-master0730 - コピー/Library/PackageCache/mu.cluster.cluster-creator-kit@948f6c6181",
+    "mu.cluster.cluster-creator-kit": "https://github.com/ClusterVR/ClusterCreatorKit.git#v1.6.2",
     "com.unity.modules.ai": "1.0.0",
     "com.unity.modules.androidjni": "1.0.0",
     "com.unity.modules.animation": "1.0.0",
