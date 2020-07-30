@@ -68,8 +68,9 @@
     "mu.cluster.cluster-creator-kit": {
       "version": "https://github.com/ClusterVR/ClusterCreatorKit.git#v1.6.2",
       "depth": 0,
-      "source": "local",
-      "dependencies": {}
+      "source": "git",
+      "dependencies": {},
+      "hash": "948f6c61816aec48b33f4e867fde42de66885ace"
     },
     "com.unity.modules.ai": {
       "version": "1.0.0",
