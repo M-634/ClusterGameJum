@@ -149,7 +149,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6023463614627779428}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 2872ae1873cd4546a4cf7dae626612b5, type: 3}
   m_Name: 
@@ -178,5 +178,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 6023463614627779424}
   key:
-    target: 0
-    key: destroy
+    target: 2
+    key: d

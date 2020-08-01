@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 9139238911307473868}
   - component: {fileID: 9139238911307473970}
   - component: {fileID: 9139238911307473869}
+  - component: {fileID: 6682343853042960696}
   m_Layer: 14
   m_Name: CreateManager
   m_TagString: Untagged
@@ -70,7 +71,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 1973652870933797207, guid: dbe33efae0925124581939c81ed8e72b,
     type: 3}
   itemTemplateId:
-    value: 16806925038639440186
+    value: 2027272083262141911
   spawnPoint: {fileID: 9139238911307473964}
 --- !u!114 &9139238911307473868
 MonoBehaviour:
@@ -91,7 +92,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 6023463614627779424, guid: 9aa960bf564d3094b835c20ef27c9047,
     type: 3}
   itemTemplateId:
-    value: 0
+    value: 5288447246561822073
   spawnPoint: {fileID: 9139238911307473964}
 --- !u!114 &9139238911307473970
 MonoBehaviour:
@@ -107,7 +108,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 9139238911307473966}
   triggers:
-  - target: 0
+  - target: 4
     specifiedTargetItem: {fileID: 0}
     key: count
     type: 3
@@ -271,13 +272,29 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 3
+                  integerValue: 2
                 sourceState:
                   target: 2
                   key: 
               operatorExpression:
                 operator: 0
                 operands: []
+--- !u!114 &6682343853042960696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9139238911307473971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 396768c05fa51bd47ab528ca7d76a531, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 9139238911307473966}
+  key:
+    target: 2
+    key: d
 --- !u!1 &9139238912229209673
 GameObject:
   m_ObjectHideFlags: 0
