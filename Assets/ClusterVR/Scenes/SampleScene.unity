@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.1210787, a: 1}
+  m_IndirectSpecularColor: {r: 0.39198107, g: 0.40182015, b: 0.38272092, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -97,6 +97,7 @@ LightmapSettings:
     m_PVRFilteringAtrousPositionSigmaAO: 1
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
+    m_LightProbeSampleCountMultiplier: 4
   m_LightingDataAsset: {fileID: 112000000, guid: 16b2c7c0332310748973b6f170a436e5,
     type: 2}
   m_UseShadowmask: 0
@@ -256,12 +257,12 @@ PrefabInstance:
     - target: {fileID: 69583971117431724, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 69583971117431724, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 69583971117431724, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
@@ -276,12 +277,12 @@ PrefabInstance:
     - target: {fileID: 69583971117431724, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 22
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 69583971117431724, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -13.292682
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 224211725486881418, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
@@ -951,22 +952,22 @@ PrefabInstance:
     - target: {fileID: 3330430735457682008, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3330430735457682008, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3330430735457682008, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 22
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3330430735457682008, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -13.292682
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 3330705304362882188, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
@@ -2211,22 +2212,22 @@ PrefabInstance:
     - target: {fileID: 8433414052606886378, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433414052606886378, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433414052606886378, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_SizeDelta.y
-      value: 22
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433414052606886378, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -13.292682
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8433862696001005948, guid: 1f26100627f068846b1b32cc5b3b97ed,
         type: 3}
@@ -2740,9 +2741,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a9591cbfe84098e478cd90dffd713143, type: 3}
 --- !u!1 &436192606
 GameObject:
@@ -2783,8 +2784,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 436192606}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 12
@@ -3748,12 +3750,12 @@ PrefabInstance:
     - target: {fileID: 1221006315223040462, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1221006315223040462, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1221006315223040462, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
@@ -4013,17 +4015,17 @@ PrefabInstance:
     - target: {fileID: 9191395599721947338, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9191395599721947338, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9191395599721947338, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9191395599721947338, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
@@ -4326,9 +4328,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 599ad9d3a2fb53247ab78bd374335cdc, type: 3}
 --- !u!64 &1707435440
 MeshCollider:
@@ -4340,9 +4342,9 @@ MeshCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  serializedVersion: 3
+  serializedVersion: 4
   m_Convex: 0
-  m_CookingOptions: 14
+  m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 599ad9d3a2fb53247ab78bd374335cdc, type: 3}
 --- !u!1 &1759227758
 GameObject:
@@ -4383,8 +4385,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1759227758}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 2
+  m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 1
   m_Range: 10
@@ -4474,8 +4477,9 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1900031774}
   m_Enabled: 1
-  serializedVersion: 9
+  serializedVersion: 10
   m_Type: 0
+  m_Shape: 0
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_Intensity: 0.5
   m_Range: 10
@@ -5191,12 +5195,12 @@ PrefabInstance:
     - target: {fileID: 1221006315223040462, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1221006315223040462, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 1221006315223040462, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
@@ -5456,17 +5460,17 @@ PrefabInstance:
     - target: {fileID: 9191395599721947338, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchorMin.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9191395599721947338, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchorMax.y
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9191395599721947338, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -3
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9191395599721947338, guid: d08673899800f954d872ca391d26b4b2,
         type: 3}
