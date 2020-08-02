@@ -115,7 +115,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 3963910221902509449, guid: 12c61df46a396c74ba234ee266eecd7a,
     type: 3}
   itemTemplateId:
-    value: 12031822828299394907
+    value: 18238567596143615927
   spawnPoint: {fileID: 9139238911307473964}
 --- !u!114 &7061057610287770720
 MonoBehaviour:
@@ -136,7 +136,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 8364828276460852866, guid: 363e2bacd1d59be4c8e8ae4715943b6d,
     type: 3}
   itemTemplateId:
-    value: 11227245204154583228
+    value: 10258425128917351270
   spawnPoint: {fileID: 9139238911307473964}
 --- !u!114 &9139238911307473970
 MonoBehaviour:
@@ -156,6 +156,14 @@ MonoBehaviour:
     specifiedTargetItem: {fileID: 0}
     key: count
     type: 3
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
+  - target: 4
+    specifiedTargetItem: {fileID: 0}
+    key: c1
+    type: 0
     value:
       boolValue: 0
       floatValue: 0
@@ -198,54 +206,6 @@ MonoBehaviour:
               key: 
           operatorExpression:
             operator: 2
-            operands:
-            - type: 0
-              value:
-                type: 1
-                constant:
-                  type: 1
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 0
-                sourceState:
-                  target: 2
-                  key: count
-              operatorExpression:
-                operator: 0
-                operands: []
-            - type: 0
-              value:
-                type: 0
-                constant:
-                  type: 3
-                  boolValue: 0
-                  floatValue: 0
-                  integerValue: 1
-                sourceState:
-                  target: 2
-                  key: 
-              operatorExpression:
-                operator: 0
-                operands: []
-    - singleStatement:
-        targetState:
-          target: 2
-          key: c1
-          parameterType: 0
-        expression:
-          type: 1
-          value:
-            type: 0
-            constant:
-              type: 1
-              boolValue: 0
-              floatValue: 0
-              integerValue: 0
-            sourceState:
-              target: 2
-              key: 
-          operatorExpression:
-            operator: 7
             operands:
             - type: 0
               value:
