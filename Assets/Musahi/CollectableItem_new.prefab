@@ -1,22 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &1137799108709565693
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8834528128443052005}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce2b9f4eb5444df69e31db5c54e12447, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  globalGimmickKey:
-    key:
-      target: 0
-      key: flower
-    item: {fileID: 8062714827778172947}
 --- !u!1 &8062714826769807209
 GameObject:
   m_ObjectHideFlags: 0
@@ -108,6 +91,7 @@ GameObject:
   - component: {fileID: 8062714827778172947}
   - component: {fileID: 8062714827778172944}
   - component: {fileID: 8062714827778172946}
+  - component: {fileID: 5032261402227898840}
   - component: {fileID: 8062714827778172940}
   m_Layer: 0
   m_Name: CollectableItem_new
@@ -196,6 +180,14 @@ MonoBehaviour:
       boolValue: 0
       floatValue: 0
       integerValue: 1
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: timer
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 1
 --- !u!135 &8062714827778172946
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -209,6 +201,32 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0.5, z: 0}
+--- !u!114 &5032261402227898840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8062714827778172943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a5a9785e42671427a8761e148889f041, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 8062714827778172947}
+  key:
+    target: 0
+    key: timer
+  delayTimeSeconds: 1
+  triggers:
+  - target: 0
+    specifiedTargetItem: {fileID: 0}
+    key: destroyFlower
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
 --- !u!114 &8062714827778172940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,8 +241,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 8062714827778172947}
   key:
-    target: 2
-    key: d
+    target: 0
+    key: destroyFlower
 --- !u!1 &8157971589605486899
 GameObject:
   m_ObjectHideFlags: 0
@@ -19436,6 +19454,23 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
+--- !u!114 &1137799108709565693
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8834528128443052005}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce2b9f4eb5444df69e31db5c54e12447, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  globalGimmickKey:
+    key:
+      target: 0
+      key: flower
+    item: {fileID: 8062714827778172947}
 --- !u!1001 &2569791009362825301
 PrefabInstance:
   m_ObjectHideFlags: 0
