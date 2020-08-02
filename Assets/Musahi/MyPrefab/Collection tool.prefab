@@ -16,6 +16,7 @@ GameObject:
   - component: {fileID: 5570808525307264611}
   - component: {fileID: 5570808525307264608}
   - component: {fileID: 5570808525307264609}
+  - component: {fileID: 2416470366472888214}
   m_Layer: 14
   m_Name: Collection tool
   m_TagString: Untagged
@@ -156,3 +157,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movableItem: {fileID: 5570808525307264608}
   grip: {fileID: 0}
+--- !u!114 &2416470366472888214
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5570808525307264622}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaad96d2e18f43efbdaeaf6edf336ff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabbableItem: {fileID: 5570808525307264609}
+  triggers:
+  - target: 4
+    specifiedTargetItem: {fileID: 0}
+    key: playSE
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
