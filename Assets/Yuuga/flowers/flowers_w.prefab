@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 11450142373279967}
   - component: {fileID: 11450142373279937}
   m_Layer: 0
-  m_Name: flowers
+  m_Name: flowers_w
   m_TagString: Untagged
   m_Icon: {fileID: 419385456094870383, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
@@ -79,7 +79,7 @@ MonoBehaviour:
       integerValue: 1
   - target: 4
     specifiedTargetItem: {fileID: 0}
-    key: Create_r
+    key: Create_w
     type: 0
     value:
       boolValue: 0
@@ -19489,7 +19489,7 @@ PrefabInstance:
     - target: {fileID: 1087099021652981552, guid: 37dd8f7b345d67e49b83d42d16ae9d6b,
         type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 37dd8f7b345d67e49b83d42d16ae9d6b, type: 3}
@@ -19580,6 +19580,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Flower_tulip_red
+      objectReference: {fileID: 0}
+    - target: {fileID: 7103583549337649917, guid: 6eb4676c5dbbfee4e9a86e48c1c217bc,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6eb4676c5dbbfee4e9a86e48c1c217bc, type: 3}
