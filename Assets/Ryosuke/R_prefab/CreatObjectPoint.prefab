@@ -107,7 +107,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   item: {fileID: 5921966996415907211}
   key:
-    target: 0
+    target: 2
     key: CreateItem
   itemTemplate: {fileID: 6930690355736552809, guid: c8ee17042d12c9e4097518423f715c65,
     type: 3}
