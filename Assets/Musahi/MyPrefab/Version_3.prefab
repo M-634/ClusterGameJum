@@ -124,7 +124,7 @@ MonoBehaviour:
   key:
     target: 0
     key: timer
-  delayTimeSeconds: 6.5
+  delayTimeSeconds: 6
   triggers:
   - target: 0
     specifiedTargetItem: {fileID: 0}
