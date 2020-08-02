@@ -19581,7 +19581,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: Flower_tulip_red
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 3710823876014411484, guid: 6eb4676c5dbbfee4e9a86e48c1c217bc, type: 3}
+    - {fileID: 9189402694956255654, guid: 6eb4676c5dbbfee4e9a86e48c1c217bc, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 6eb4676c5dbbfee4e9a86e48c1c217bc, type: 3}
 --- !u!4 &961753990713129701 stripped
 Transform:
