@@ -44,6 +44,7 @@ GameObject:
   - component: {fileID: 2826050351465084577}
   - component: {fileID: 2826050351465084590}
   - component: {fileID: 5195820011233426813}
+  - component: {fileID: 1912077452365030588}
   m_Layer: 14
   m_Name: GripItem
   m_TagString: Untagged
@@ -143,6 +144,28 @@ MonoBehaviour:
     key: GripItem
   targetTransform: {fileID: 0}
   positionOnly: 0
+--- !u!114 &1912077452365030588
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2826050351465084588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaad96d2e18f43efbdaeaf6edf336ff7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  grabbableItem: {fileID: 2826050351465084590}
+  triggers:
+  - target: 4
+    specifiedTargetItem: {fileID: 0}
+    key: playSE
+    type: 0
+    value:
+      boolValue: 0
+      floatValue: 0
+      integerValue: 0
 --- !u!1 &2826050351677467222
 GameObject:
   m_ObjectHideFlags: 0
