@@ -276,7 +276,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 2
+                  integerValue: 3
                 sourceState:
                   target: 2
                   key: 
@@ -324,7 +324,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 3
+                  integerValue: 10
                 sourceState:
                   target: 2
                   key: 
@@ -372,7 +372,7 @@ MonoBehaviour:
                   type: 3
                   boolValue: 0
                   floatValue: 0
-                  integerValue: 4
+                  integerValue: 20
                 sourceState:
                   target: 2
                   key: 
