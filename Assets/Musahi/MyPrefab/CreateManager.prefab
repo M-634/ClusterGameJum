@@ -12,6 +12,8 @@ GameObject:
   - component: {fileID: 9139238911307473966}
   - component: {fileID: 9139238911307473967}
   - component: {fileID: 9139238911307473868}
+  - component: {fileID: 7559410415295220461}
+  - component: {fileID: 7061057610287770720}
   - component: {fileID: 9139238911307473970}
   - component: {fileID: 9139238911307473869}
   - component: {fileID: 6682343853042960696}
@@ -68,7 +70,7 @@ MonoBehaviour:
   key:
     target: 2
     key: c1
-  itemTemplate: {fileID: 1973652870933797207, guid: dbe33efae0925124581939c81ed8e72b,
+  itemTemplate: {fileID: 9193303410428162713, guid: f23fbe29d5c37134799533d28ecae2dd,
     type: 3}
   itemTemplateId:
     value: 2027272083262141911
@@ -89,7 +91,49 @@ MonoBehaviour:
   key:
     target: 2
     key: c2
-  itemTemplate: {fileID: 6023463614627779424, guid: 9aa960bf564d3094b835c20ef27c9047,
+  itemTemplate: {fileID: 7385563875441922411, guid: bf5f62196bb7a8d48a8c90a0b0750f5b,
+    type: 3}
+  itemTemplateId:
+    value: 5288447246561822073
+  spawnPoint: {fileID: 9139238911307473964}
+--- !u!114 &7559410415295220461
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9139238911307473971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 9139238911307473966}
+  key:
+    target: 2
+    key: c3
+  itemTemplate: {fileID: 3963910221902509449, guid: 12c61df46a396c74ba234ee266eecd7a,
+    type: 3}
+  itemTemplateId:
+    value: 5288447246561822073
+  spawnPoint: {fileID: 9139238911307473964}
+--- !u!114 &7061057610287770720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9139238911307473971}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2a2d50bc3e074e22919ff17b806ad61e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  item: {fileID: 9139238911307473966}
+  key:
+    target: 2
+    key: c4
+  itemTemplate: {fileID: 8364828276460852866, guid: 363e2bacd1d59be4c8e8ae4715943b6d,
     type: 3}
   itemTemplateId:
     value: 5288447246561822073
@@ -273,6 +317,102 @@ MonoBehaviour:
                   boolValue: 0
                   floatValue: 0
                   integerValue: 2
+                sourceState:
+                  target: 2
+                  key: 
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: c3
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+            sourceState:
+              target: 2
+              key: 
+          operatorExpression:
+            operator: 7
+            operands:
+            - type: 0
+              value:
+                type: 1
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                sourceState:
+                  target: 2
+                  key: count
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 3
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 3
+                sourceState:
+                  target: 2
+                  key: 
+              operatorExpression:
+                operator: 0
+                operands: []
+    - singleStatement:
+        targetState:
+          target: 2
+          key: c4
+          parameterType: 0
+        expression:
+          type: 1
+          value:
+            type: 0
+            constant:
+              type: 1
+              boolValue: 0
+              floatValue: 0
+              integerValue: 0
+            sourceState:
+              target: 2
+              key: 
+          operatorExpression:
+            operator: 7
+            operands:
+            - type: 0
+              value:
+                type: 1
+                constant:
+                  type: 1
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 0
+                sourceState:
+                  target: 2
+                  key: count
+              operatorExpression:
+                operator: 0
+                operands: []
+            - type: 0
+              value:
+                type: 0
+                constant:
+                  type: 3
+                  boolValue: 0
+                  floatValue: 0
+                  integerValue: 4
                 sourceState:
                   target: 2
                   key: 
