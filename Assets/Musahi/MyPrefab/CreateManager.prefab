@@ -115,7 +115,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 3963910221902509449, guid: 12c61df46a396c74ba234ee266eecd7a,
     type: 3}
   itemTemplateId:
-    value: 5288447246561822073
+    value: 12031822828299394907
   spawnPoint: {fileID: 9139238911307473964}
 --- !u!114 &7061057610287770720
 MonoBehaviour:
@@ -136,7 +136,7 @@ MonoBehaviour:
   itemTemplate: {fileID: 8364828276460852866, guid: 363e2bacd1d59be4c8e8ae4715943b6d,
     type: 3}
   itemTemplateId:
-    value: 5288447246561822073
+    value: 11227245204154583228
   spawnPoint: {fileID: 9139238911307473964}
 --- !u!114 &9139238911307473970
 MonoBehaviour:
